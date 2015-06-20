@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:id="@+id/iv_cropped"
+        android:src="@mipmap/ic_launcher"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/ll_cropped"
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content">
+
+        <com.example.krishna.testdemo.TouchImageView
+            android:id="@+id/iv_detail_item"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:contentDescription="not_found"
+            android:scaleType="fitXY"
+            android:src="@drawable/wall_bird" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/iv_rotate"
+        android:text="Rotate"
+        android:layout_below="@+id/ll_cropped"
+        android:layout_marginTop="30dp"
+        android:onClick="rotateView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

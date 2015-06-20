@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:text="drawer_quizzes"
+        android:backgroundTint="#AAAAAA"
+        android:stateListAnimator="@null"
+        android:textColor="#fff"
+        android:textSize="12dp"
+        android:fontFamily="sans-serif"
+        android:background="#FF0000"
+        android:drawableLeft="@mipmap/ic_launcher"
+        android:gravity="left|center_vertical"
+        android:drawablePadding="8dp"
+        />
+
+</LinearLayout>

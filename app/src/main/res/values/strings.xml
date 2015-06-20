@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">TestDemo</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="sampleList">
+        <item>Sample</item>
+        <item>Sample</item>
+        <item>Sample</item>
+        <item>Sample</item>
+        <item>Sample</item>
+        <item>Sample</item>
+        <item>Sample</item>
+        <item>Sample</item>
+        <item>Sample</item>
+        <item>Sample</item>
+        <item>Sample</item>
+        <item>Sample</item>
+        <item>Sample</item>
+        <item>Sample</item>
+        <item>Sample</item>
+        <item>Sample</item>
+        <item>Sample</item>
+        <item>Sample</item>
+        <item>Sample</item>
+        <item>Sample</item>
+        <item>Sample</item>
+        <item>Sample</item>
+        <item>Sample</item>
+        <item>Sample</item>
+        <item>Sample</item>
+        <item>Sample</item>
+        <item>Sample</item>
+        <item>Sample</item>
+        <item>Sample</item>
+        <item>Sample</item>
+        <item>Sample</item>
+        <item>Sample</item>
+
+    </string-array>
+    <string name="title_activity_image_zoom">ImageZoomActivity</string>
+</resources>
