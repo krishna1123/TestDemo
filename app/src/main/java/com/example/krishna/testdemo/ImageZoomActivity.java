@@ -22,7 +22,7 @@ public class ImageZoomActivity extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.item);
+        setContentView(R.layout.item_sample);
         llCropped = (LinearLayout) findViewById(R.id.ll_cropped);
         touchImageView = (TouchImageView) findViewById(R.id.iv_detail_item);
         ivCropped = (ImageView) findViewById(R.id.iv_cropped);
