@@ -29,6 +29,11 @@ public class MainActivity extends ActionBarActivity {
         CustomAdapter adapter=new CustomAdapter(this,list);
         gridView.setAdapter(adapter);
 
+//        android.util.Log.d("$className$", "$MethodName$ (Line:$Line$) :"+$message$);
+        // check first three checkboxes and put their corresponding methods.
+
+//        android.widget.Toast.makeText($context$, $message$, Toast.LENGTH_SHORT).show();$END$
+        //"this" for context,  "\"message\"" for message. both are not checked.
 
         gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
